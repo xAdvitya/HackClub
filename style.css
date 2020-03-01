@@ -1,14 +1,15 @@
 .card {
     box-shadow:   0px 2px 4px 0 black; 
     border-radius: 5px;
+    margin-left: 10px;
+    height: 250px;
+    width: 400px;
     display: inline-block;
     background-color: crimson;
 }
 
-@media only screen and (max-width: 1500px){
-    body{
-        background-color: chocolate;
-    }
+body{
+    background-color: chocolate;
 }
 
 @media only screen and (max-width: 1000px){
